@@ -1,3 +1,25 @@
+Copyright (2014) Steve Court and Bartek Waclaw, The University of Edinburgh.
+
+   This file is part of the "networkgeneration" project.
+
+   This is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   The software is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+   See the GNU General Public License for more details.
+
+   A copy of the GNU General Public License can be found in the file
+   LICENSE or at <http://www.gnu.org/licenses/>.
+
+
+
+
+
+
 This repository contains files written by Steven Court and Bartlomiej Waclaw, University of Edinburgh.
 
 - 2 separate programs to generate biochemically feasible reactions from EC numbers:  networkgeneration_steve and networkgeneration_bartek
