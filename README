@@ -15,21 +15,24 @@ Copyright (2014) Steve Court and Bartek Waclaw, The University of Edinburgh.
    A copy of the GNU General Public License can be found in the file
    LICENSE or at <http://www.gnu.org/licenses/>.
 
-
-
-
-
-
-This repository contains files written by Steven Court and Bartlomiej Waclaw, University of Edinburgh.
+This repository contains files written by Steven Court and Bartlomiej Waclaw, University of Edinburgh. 
 
 - 2 separate programs to generate biochemically feasible reactions from EC numbers:  networkgeneration_steve and networkgeneration_bartek
 - Some evolutionary simulations
 
-
-"_bartek" program automatically calculates Delta-G values via a group contribution method, trained on experimental Delta-G values from Alberty's database.  
+"_bartek" program automatically calculates Delta-G values via a group contribution method, trained on experimental Delta-G values from Alberty's database [1]
 "_steven" currently does not implement any thermodynamics.  
-See separate readme files in each directory for more details, and the "Notes on ... reactions.odt" files for some notes and references on each of the reaction classes included in the networks and how they are implemented.
+See separate readme files in each directory for more details, and the "Notes on ... reactions.docx" files for some notes and references on each of the reaction classes included in the networks and how they are implemented.
 
+This work is based upon the article 
+
+"Lower glycolysis carries a higher flux than any biochemically possible alternative", S. J. Court, B. Waclaw, R. J. Allen, Nature Communications 6 (2015),8427, doi:10.1038/ncomms9427.
+
+Please cite this article if you use the programs from this repository.
+
+
+References
+[1] Alberty, R. A. Biochemical thermodynamics: applications of mathematica. Methods Biochem. Anal.48,1–458 (2006).
 
 
 
