@@ -13,20 +13,3 @@ To run:    "java ComparePaths_rMMK input_file.paths output_file.dat"
 - ExternalMetabs.java contains method to calculate the modification factor to a reaction's equilibrium constant arising from the fixed values of the external metabolite concentrations, getExtMetFactor().
 
 NOTE: the "ConvKin_NoExternals" label in file name is no longer correct. The kinetics are actually based on the "Common modular rate law" of Wolfram Leibermeister (though this is very similar to the Convenience Kinetics). The "NoExternals" indicates that we do not attribute kinetic parameters for the external metabolites. Instead, these fixed concentrations enter only through the modification of the equilibrium constant of a reaction - see notes. Since in our comparison all reactions are thus uni-uni molecular, all reaction rates reduce to that of the simple reversible Michaelis-Menten kinetics.
-
-
-
-
-
-
-
-
-==================================================================================
-
-
-  -  add source and product labels in more sensible way
-
-  -  tidy code? put all parameters/ranges at top of main method, or read them from a file?
-                write a class that reads in the list of pathways
-                write class to sample parameter values
-  
