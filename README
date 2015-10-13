@@ -22,7 +22,7 @@ This repository contains files written by Steven Court and Bartlomiej Waclaw, Un
 
 "_bartek" program automatically calculates Delta-G values via a group contribution method, trained on experimental Delta-G values from Alberty's database [1]
 "_steven" currently does not implement any thermodynamics.  
-See separate readme files in each directory for more details, and the "Notes on ... reactions.docx" files for some notes and references on each of the reaction classes included in the networks and how they are implemented.
+See separate readme files in each directory for more details.
 
 This work is based upon the article 
 
